@@ -6,6 +6,7 @@
 
 create DATABASE mobile_info;
 
+
 drop table if exists MOBILE;
 
 drop table if exists USER;
@@ -35,7 +36,7 @@ create table MOBILE
 create table USER
 (
    USER_ID              int AUTO_INCREMENT not null,
-   EMAIL             varchar(20) not null,
+   EMAIL                varchar(20) not null,
    USERNAME             varchar(20) not null,
    PASSWORD             varchar(20) not null,
    primary key (USER_ID)
